@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Визитка (CSS Only)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="scene">
+        <input type="checkbox" id="card-toggle" class="card-toggle-input">
+
+        <label class="card" for="card-toggle">
+            
+            <div class="card__face card__face--front">
+                <img src="me.jpg" alt="MyPhoto" class="profile-img">
+                <h1 class="name">Emmanuil Alkhazov</h1>
+                <p class="role">Full Stack Engineer </p>
+                <p class="hint">Click to flip &rarr;</p>
+            </div>
+
+            <div class="card__face card__face--back">
+                <h2 class="back-title">Contacts</h2>
+                <ul class="contacts">
+                    <li>
+                        <a href="tel:+972523467391">
+                            <span class="icon"></span> +972 52-346-7391
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:alhazovemmanuil@gmail.com">
+                            <span class="icon"></span> My Email
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/kocktevran" target="_blank">
+                            <span class="icon"></span> Telegram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/emmanuil-sys" target="_blank">
+                            <span class="icon"></span> GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </label>
+    </div>
+
+</body>
+</html>
